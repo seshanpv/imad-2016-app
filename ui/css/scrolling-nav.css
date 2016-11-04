@@ -1,0 +1,173 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-section1 {
+    height: 100%;
+    padding-top: 40px;
+    text-align: center;
+    background: #eee;
+
+}
+.about-section2 {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #609492;
+}
+.about-section3 {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #609492;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.hey {
+  font-family: 'Amatica SC', cursive;
+  letter-spacing: -0.01em;
+}
+
+div.absolute {
+  position: static;
+
+}
+hr {
+  border-top-color:#ababab;
+}
+
+.aboutsection2 {
+  font-size: 125%;
+  text-align:-webkit-left;
+  color:#fff;
+}
+
+.aboutsection3 {
+  font-size: 125%;
+  text-align:-webkit-left;
+  color:#fff;
+}
+
+.heading {
+  font-size: xx-large;
+  font-weight: 300;
+  margin-top: 5%;
+}
+
+.heading1 {
+  font-size: xx-large;
+  font-weight: 300;
+  margin-top:15%;
+  color:#fff
+}
+
+.heading2 {
+  font-size: xx-large;
+  font-weight: 300;
+  margin-top: -10%;
+}
+
+@media(min-width:700px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+
+    .resume {
+      margin-left: 60%;
+    }
+
+}
+@media only screen and (min-width: 0px) and (max-width: 679px){
+  .aboutsection2 {
+    font-size: 100%;
+  }
+  .aboutsection3 {
+    font-size: 100%;
+    text-align:-webkit-left;
+  }
+
+  .heading {
+    font-size: xx-large;
+    font-weight: 300;
+    margin-top: 10%;
+  }
+
+  .heading1 {
+    font-size: xx-large;
+    font-weight: 300;
+    margin-top:30%;
+    color:#fff
+  }
+  .heading2 {
+    font-size: xx-large;
+    font-weight: 300;
+    margin-top: -25%;
+  }
+
+  .resume {
+    margin-left: 0%;
+  }
+
+
+}
+
+
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0);
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
