@@ -13,6 +13,13 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
+app.get('/js/jquery.pagepiling.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'js', 'jquery.pagepiling.js'));
+});
+
+app.get('css/jquery.pagepiling.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'css', 'jquery.pagepiling.css'));
+});
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
