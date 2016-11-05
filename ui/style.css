@@ -51,13 +51,17 @@ body{
 	color: #f2f2f2;
 }
 h1{
-	font-size: 6em;
+	font-size: 3em;
 }
 p{
 	font-size: 2em;
 }
 .section{
 	text-align: center;
+}
+.hey {
+  font-family: 'Amatica SC', cursive;
+  letter-spacing: -0.01em;
 }
 
 /* Menu
