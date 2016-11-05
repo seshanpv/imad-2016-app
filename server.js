@@ -13,11 +13,11 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/', function (req, res) {
+app.get('/js/jquery.pagepiling.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'js', 'jquery.pagepiling.js'));
 });
 
-app.get('/', function (req, res) {
+app.get('/css/jquery.pagepiling.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'css', 'jquery.pagepiling.css'));
 });
 
