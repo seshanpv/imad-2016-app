@@ -3,31 +3,33 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>pagePiling.js plugin - Horizontal scroll</title>
-	<meta name="author" content="Alvaro Trigo Lopez" />
-	<meta name="description" content="pagePiling.js plugin by Alvaro Trigo." />
-	<meta name="keywords"  content="pile,piling,piling.js,stack,pages,scrolling,stacking,touch,fullpile,scroll,plugin,jquery" />
-	<meta name="Resource-type" content="Document" />
+	<title>SeshanPV</title>
 
-	<link rel="stylesheet" type="text/css" href="/css/jquery.pagepiling.css" />
-	<link rel="stylesheet" type="text/css" href="/ui/style.css" />
+	<link rel="stylesheet" type="text/css" href="../css/jquery.pagepiling.css" />
+	<link rel="stylesheet" type="text/css" href="../ui/style.css" />
+
+
+
+	<!--fonts-->
+	<link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Amatica+SC" rel="stylesheet">
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
-	<script type="text/javascript" src="/js/jquery.pagepiling.js"></script>
+	<script type="text/javascript" src="../js/jquery.pagepiling.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			/*
 			* Plugin intialization
 			*/
 	    	$('#pagepiling').pagepiling({
-	          	direction: 'horizontal',
+	          /*	direction: 'horizontal', */
 	    		menu: '#menu',
-	    		anchors: ['page1', 'page2', 'page3', 'page4'],
-			    sectionsColor: ['white', '#ee005a', '#2C3E50', '#39C'],
+	    		anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+			    sectionsColor: ['white', '#2C3E50' ,'#39C', '#ee005a', '#2C3E50' ],
 			    navigation: {
 			    	'position': 'right',
-			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Pgae 4']
+			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Pgae 4', 'Page 5']
 			   	},
 			    afterRender: function(){
 			    	$('#pp-nav').addClass('custom');
@@ -63,11 +65,11 @@
 		right: 0;
 	}
 	#colors2{
-		background-image: url(imgs/colors2.gif);
+		background-image: url(../images/colors2.gif);
 		top:0;
 	}
 	#colors3{
-		background-image: url(imgs/colors3.gif);
+		background-image: url(../images/colors3.gif);
 		bottom:0;
 	}
 
@@ -83,36 +85,81 @@
 </head>
 <body>
 	<ul id="menu">
-		<li data-menuanchor="page1" class="active"><a href="#page1">Page 1</a></li>
-		<li data-menuanchor="page2"><a href="#page2">Page 2</a></li>
-		<li data-menuanchor="page3"><a href="#page3">Page 3</a></li>
+		<li data-menuanchor="page1" class="active"><a href="#page1">Home</a></li>
+		<li data-menuanchor="page2"><a href="#page2">About me</a></li>
+		<li data-menuanchor="page3"><a href="#page3">Profile</a></li>
+		<li data-menuanchor="page4"><a href="#page4">Blog</a></li>
+		<li data-menuanchor="page5"><a href="#page5">Contact</a></li>
 	</ul>
 
 
 	<div id="pagepiling">
+
 	    <div class="section" id="section1">
-	    	<img src="imgs/pagePiling-plugin.gif" alt="pagePiling" />
+	<img style="height:15rem ; width:15rem ; border-radius:50% ; opacity:inherit" src="../images/seshan.jpg" />
 			<br />
 
-	    	<h1>Horizontal Scroll</h1>
-			<p>pagePiling does it easy for you!</p>
+
+			<h1 class="hey" style="font-size:4rem;">Hey, I'm Seshan !</h1>
+			<p class="hey">Wanna Know About Me ?</p>
 
 	    </div>
+
 	    <div class="section">
 	    	<div class="intro">
-	    		<h1>Simple to use</h1>
-	    		<p>Just use the option direction: 'horizontal' to have it working!</p>
+					<h1  style="margin-right:25%; padding-bottom:2%; margin-top:6%">Apple Lover</h1>
+					<h1  style="font-size:x-large; margin-left:10%; padding-bottom:2%">Computer Geek</h1>
+					<h1  style="font-size:xx-large; margin-right:20%; padding-bottom:2% ">Loves statistics</h1>
+					<h1  style="font-size:x-large; margin-left:25%; padding-bottom:2%">Impressive Negotiator</h1>
+					<h1  style="margin-left:10%; padding-bottom:2%">Loves design</h1>
+					<h1  style="font-size:xx-large; margin-right:25%; padding-bottom:2%">GoT Fan</h1>
+					<h1  style="font-size:x-large; margin-left:25%; padding-bottom:2%">Traveller</h1>
+					<h1  style="margin-right:5%; padding-bottom:2%">Creative</h1>
+
 	    	</div>
 	    </div>
-	    <div class="section" id="section3">
-	    	<div class="intro">
-	    		<h1>Isn't it great?</h1>
-	    		<p>Just as you expected!</p>
-	    		<div id="colors2"></div>
-	    		<div id="colors3"></div>
-	    	</div>
-	    </div>
+
+			<div class="section">
+				<div class="intro">
+					<h1>My profile</h1>
+					<p>Will be updated soon</p>
+				</div>
+			</div>
+
+			<div class="section">
+				<div class="intro">
+					<h1>Blog.</h1>
+					<p>***On Construction***</p>
+				</div>
+			</div>
+
+			<div class="section">
+				<div class="intro">
+					<a href="https://www.facebook.com/seshan.velmurugan">
+					  <img src="../images/fb.png" alt="facebook" align="center" width="100" height="100"  style="margin-right:10%">
+					</a>
+					<a href="https://in.linkedin.com/in/seshan-p-v-01b84812b">
+					  <img src="../images/l.png" alt="linkedin" align="center"  width="100" height="100" style="margin-right:10%">
+					</a>
+					<a href="https://twitter.com/seshan_pv">
+						<img src="../images/t.png" alt="twitter" align="center"  width="100" height="100">
+					</a>
+
+				</div>
+
+				<div id="colors2"></div>
+				<div id="colors3"></div>
+			</div>
+
+
+
 	</div>
+
+
+
+
+
+
 
 </body>
 </html>
