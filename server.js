@@ -9,15 +9,15 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/ui/style.css', function (req, res) {
+app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/js/jquery.pagepiling.js', function (req, res) {
+app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'js', 'jquery.pagepiling.js'));
 });
 
-app.get('css/jquery.pagepiling.css', function (req, res) {
+app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'css', 'jquery.pagepiling.css'));
 });
 
