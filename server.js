@@ -46,7 +46,7 @@ app.get('/images/fb.png', function (req, res) {
 });
 
 app.get('/images/GitHub.gif', function (req, res) {
-  res.sendFile(path.join(__dirname, 'images', 'fb.png'));
+  res.sendFile(path.join(__dirname, 'images', 'GitHub.gif'));
 });
 
 app.get('/images/l.png', function (req, res) {
